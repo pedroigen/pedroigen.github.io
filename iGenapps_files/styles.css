@@ -7300,7 +7300,7 @@ input[type="button"].btn-block {
   transition: height 0.35s ease, visibility 0.35s ease;
 }
 
-/* 
+/*
  *  Owl Carousel - Auto Height Plugin
  */
 /* line 8, ../sass/_carousel.scss */
@@ -7310,7 +7310,7 @@ input[type="button"].btn-block {
   transition: height 400ms;
 }
 
-/* 
+/*
  *  Core Owl Carousel Styles
  */
 /* line 15, ../sass/_carousel.scss */
@@ -7507,7 +7507,7 @@ input[type="button"].btn-block {
   display: block;
 }
 
-/* 
+/*
  *  Owl Carousel - Lazy Load Plugin
  */
 /* line 142, ../sass/_carousel.scss */
@@ -8141,18 +8141,18 @@ img.mfp-img {
 Plugin URI: http://manos.malihu.gr/jquery-custom-content-scroller
 */
 /*
-CONTENTS: 
-  1. BASIC STYLE - Plugin's basic/essential CSS properties (normally, should not be edited). 
-  2. VERTICAL SCROLLBAR - Positioning and dimensions of vertical scrollbar. 
+CONTENTS:
+  1. BASIC STYLE - Plugin's basic/essential CSS properties (normally, should not be edited).
+  2. VERTICAL SCROLLBAR - Positioning and dimensions of vertical scrollbar.
   3. HORIZONTAL SCROLLBAR - Positioning and dimensions of horizontal scrollbar.
-  4. VERTICAL AND HORIZONTAL SCROLLBARS - Positioning and dimensions of 2-axis scrollbars. 
-  5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars. 
-  6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS 
+  4. VERTICAL AND HORIZONTAL SCROLLBARS - Positioning and dimensions of 2-axis scrollbars.
+  5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars.
+  6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS
     6.1 THEMES - Scrollbar colors, opacity, dimensions, backgrounds etc. via ready-to-use themes.
 */
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-1. BASIC STYLE  
+1. BASIC STYLE
 ------------------------------------------------------------------------------------------------------------------------
 */
 /* line 424, ../sass/_components.scss */
@@ -8187,9 +8187,9 @@ CONTENTS:
   height: auto;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-2. VERTICAL SCROLLBAR 
+2. VERTICAL SCROLLBAR
 y-axis
 ------------------------------------------------------------------------------------------------------------------------
 */
@@ -8339,9 +8339,9 @@ y-axis
   bottom: 0;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-3. HORIZONTAL SCROLLBAR 
+3. HORIZONTAL SCROLLBAR
 x-axis
 ------------------------------------------------------------------------------------------------------------------------
 */
@@ -8443,10 +8443,10 @@ x-axis
   right: 0;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-4. VERTICAL AND HORIZONTAL SCROLLBARS 
-yx-axis 
+4. VERTICAL AND HORIZONTAL SCROLLBARS
+yx-axis
 ------------------------------------------------------------------------------------------------------------------------
 */
 /* line 616, ../sass/_components.scss */
@@ -8540,9 +8540,9 @@ yx-axis
   margin-bottom: 0;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-5. TRANSITIONS  
+5. TRANSITIONS
 ------------------------------------------------------------------------------------------------------------------------
 */
 /* line 680, ../sass/_components.scss */
@@ -8569,9 +8569,9 @@ yx-axis
   transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
 }
 
-/* 
+/*
 ----------------------------------------
-6.1 THEME 
+6.1 THEME
 ----------------------------------------
 */
 /* line 720, ../sass/_components.scss */
@@ -9688,7 +9688,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -9698,7 +9698,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -453px;
   background-repeat: no-repeat;
 }
@@ -9714,7 +9714,7 @@ yx-axis
   vertical-align: middle;
   height: 579px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -906px;
   background-repeat: no-repeat;
 }
@@ -9730,7 +9730,7 @@ yx-axis
   vertical-align: middle;
   height: 636px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -1485px;
   background-repeat: no-repeat;
 }
@@ -9746,7 +9746,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -2121px;
   background-repeat: no-repeat;
 }
@@ -9762,7 +9762,7 @@ yx-axis
   vertical-align: middle;
   height: 435px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -2574px;
   background-repeat: no-repeat;
 }
@@ -9778,7 +9778,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -3009px;
   background-repeat: no-repeat;
 }
@@ -9794,7 +9794,7 @@ yx-axis
   vertical-align: middle;
   height: 454px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -3462px;
   background-repeat: no-repeat;
 }
@@ -9810,7 +9810,7 @@ yx-axis
   vertical-align: middle;
   height: 563px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -3916px;
   background-repeat: no-repeat;
 }
@@ -9826,7 +9826,7 @@ yx-axis
   vertical-align: middle;
   height: 650px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -4479px;
   background-repeat: no-repeat;
 }
@@ -9842,7 +9842,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -5129px;
   background-repeat: no-repeat;
 }
@@ -9858,7 +9858,7 @@ yx-axis
   vertical-align: middle;
   height: 549px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -5582px;
   background-repeat: no-repeat;
 }
@@ -9874,7 +9874,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -6131px;
   background-repeat: no-repeat;
 }
@@ -9890,7 +9890,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -6584px;
   background-repeat: no-repeat;
 }
@@ -9906,7 +9906,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -7037px;
   background-repeat: no-repeat;
 }
@@ -9922,7 +9922,7 @@ yx-axis
   vertical-align: middle;
   height: 511px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -7490px;
   background-repeat: no-repeat;
 }
@@ -9938,7 +9938,7 @@ yx-axis
   vertical-align: middle;
   height: 454px;
   width: 255px;
-  background-image: url(http://igappsfiles.blob.core.windows.net/public/iGenapps_files/phone-slider-sprite.png);
+  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -8001px;
   background-repeat: no-repeat;
 }

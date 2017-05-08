@@ -1,0 +1,55 @@
+.norman-img {
+  background: url('/iGenapps_files/02-1.jpg') center no-repeat;
+  background-size: 100%,auto;
+  height: 250px;
+}
+
+
+.norman-img:hover {
+  background: url('/iGenapps_files/02-2.jpg') center no-repeat;
+  background-size: 100%,auto;
+  height: 250px;
+}
+
+.martijn-img {
+  background: url('/iGenapps_files/04-1.jpg') center no-repeat;
+  background-size: 100%,auto;
+  height: 250px;
+}
+
+
+.martijn-img:hover {
+  background: url('/iGenapps_files/04-2.jpg') center no-repeat;
+  background-size: 100%,auto;
+  height: 250px;
+}
+
+.michelle-img {
+  background: url('/iGenapps_files/03-1.jpg') center no-repeat;
+  background-size: 100%,auto;
+  height: 250px;
+}
+
+
+.michelle-img:hover {
+  background: url('/iGenapps_files/03-2.jpg') center no-repeat;
+  background-size: 100%,auto;
+  height: 250px;
+}
+
+.usman-img {
+  background: url('/iGenapps_files/01-1.jpg') center no-repeat;
+  background-size: 100%,auto;
+  height: 250px;
+}
+
+
+.usman-img:hover {
+  background: url('/iGenapps_files/01-2.jpg') center no-repeat;
+  background-size: 100%,auto;
+  height: 250px;
+}
+
+.p-no-margin p {
+  margin: 0px
+}

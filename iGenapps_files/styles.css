@@ -10187,9 +10187,9 @@ yx-axis
 .our-team-section .our-team .our-team-person-1 {
   left: 0;
   bottom: 0;
-  width: 396px;
+  width: 200px; /*396px*/
   z-index: 5;
-  background: url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/our-team-bg1.png") center bottom no-repeat;
+  background: url('/iGenapps_files/02-1.jpg') center bottom no-repeat;
   background-size: 100%, auto;
 }
 @media all and (max-width: 1199px) {
@@ -10232,7 +10232,7 @@ yx-axis
   bottom: 0;
   width: 222px;
   z-index: 1;
-  background: url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/our-team-bg2.png") center bottom no-repeat;
+  background: url('/iGenapps_files/04-1.jpg') center bottom no-repeat;
   background-size: 100%, auto;
 }
 @media all and (max-width: 1199px) {
@@ -10277,7 +10277,7 @@ yx-axis
   bottom: 0;
   width: 330px;
   z-index: 3;
-  background: url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/our-team-bg3.png") center bottom no-repeat;
+  background: url('/iGenapps_files/03-1.jpg') center bottom no-repeat;
   background-size: 100%, auto;
 }
 @media all and (max-width: 1199px) {
@@ -10321,7 +10321,7 @@ yx-axis
   bottom: 0;
   width: 243px;
   z-index: 4;
-  background: url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/our-team-bg4.png") center bottom no-repeat;
+  background: url('/iGenapps_files/01-1.jpg') center bottom no-repeat;
   background-size: 100%, auto;
 }
 @media all and (max-width: 1199px) {

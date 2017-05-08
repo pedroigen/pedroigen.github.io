@@ -9701,6 +9701,7 @@ yx-axis
   background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -453px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 403, ../sass/_moduls.scss */

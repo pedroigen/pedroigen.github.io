@@ -9281,7 +9281,7 @@ yx-axis
 }
 /* line 125, ../sass/_moduls.scss */
 .quotes .quote-5 {
-  background: url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/home-background-quote-evernote.jpg") center center no-repeat;
+  background: url() center center no-repeat; /*http://igappsfiles.blob.core.windows.net/public/iGenapps_files/home-background-quote-evernote.jpg*/
 }
 /* line 130, ../sass/_moduls.scss */
 .quotes .slide {
@@ -9426,7 +9426,7 @@ yx-axis
   vertical-align: middle;
   height: 11px;
   width: 11px;
-  background-image: url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/global-s116e8c6936.png");
+  background-image: url(); /*http://igappsfiles.blob.core.windows.net/public/iGenapps_files/global-s116e8c6936.png*/
   background-position: 0 -95px;
   background-repeat: no-repeat;
   opacity: 0;
@@ -9484,7 +9484,7 @@ yx-axis
   vertical-align: middle;
   height: 14px;
   width: 10px;
-  background-image: url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/global-s116e8c6936.png");
+  background-image: url(); /*http://igappsfiles.blob.core.windows.net/public/iGenapps_files/global-s116e8c6936.png*/
   background-position: 0 -1257px;
   background-repeat: no-repeat;
   position: absolute;
@@ -9688,7 +9688,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -9698,7 +9698,7 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -453px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9713,11 +9713,12 @@ yx-axis
 .mobile-carousel-wrap .chat {
   display: inline-block;
   vertical-align: middle;
-  height: 579px;
+  height: 453px; /*579px*/
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -906px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 415, ../sass/_moduls.scss */
@@ -9729,11 +9730,12 @@ yx-axis
 .mobile-carousel-wrap .conversation {
   display: inline-block;
   vertical-align: middle;
-  height: 636px;
+  height: 453px; /*636px*/
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -1485px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 427, ../sass/_moduls.scss */
@@ -9747,9 +9749,10 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -2121px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 439, ../sass/_moduls.scss */
@@ -9761,11 +9764,12 @@ yx-axis
 .mobile-carousel-wrap .notifications {
   display: inline-block;
   vertical-align: middle;
-  height: 435px;
+  height: 453px; /*435px*/
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -2574px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 451, ../sass/_moduls.scss */
@@ -9779,9 +9783,10 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -3009px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 463, ../sass/_moduls.scss */
@@ -9795,9 +9800,10 @@ yx-axis
   vertical-align: middle;
   height: 454px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -3462px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 475, ../sass/_moduls.scss */
@@ -9809,11 +9815,12 @@ yx-axis
 .mobile-carousel-wrap .nutrition {
   display: inline-block;
   vertical-align: middle;
-  height: 563px;
+  height: 453px; /*563px*/
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -3916px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 487, ../sass/_moduls.scss */
@@ -9825,11 +9832,12 @@ yx-axis
 .mobile-carousel-wrap .profile {
   display: inline-block;
   vertical-align: middle;
-  height: 650px;
+  height: 453px; /*650px*/
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -4479px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 499, ../sass/_moduls.scss */
@@ -9843,9 +9851,10 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -5129px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 511, ../sass/_moduls.scss */
@@ -9857,11 +9866,12 @@ yx-axis
 .mobile-carousel-wrap .shop-tiles {
   display: inline-block;
   vertical-align: middle;
-  height: 549px;
+  height: 453px; /*549px*/
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -5582px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 523, ../sass/_moduls.scss */
@@ -9875,9 +9885,10 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -6131px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 535, ../sass/_moduls.scss */
@@ -9891,9 +9902,10 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -6584px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 547, ../sass/_moduls.scss */
@@ -9907,9 +9919,10 @@ yx-axis
   vertical-align: middle;
   height: 453px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -7037px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 559, ../sass/_moduls.scss */
@@ -9923,9 +9936,10 @@ yx-axis
   vertical-align: middle;
   height: 511px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -7490px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 571, ../sass/_moduls.scss */
@@ -9939,9 +9953,10 @@ yx-axis
   vertical-align: middle;
   height: 454px;
   width: 255px;
-  background-image: url(https://www.invisionapp.com/subsystems/main_landing/assets/img/sprites-retina/phone-slider-sf8b8b4e70e.png);
+  background-image: url(/img/phone-slider-sf8b8b4e70e.png);
   background-position: 0 -8001px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media all and (max-width: 481px) {
   /* line 583, ../sass/_moduls.scss */
@@ -11443,7 +11458,10 @@ yx-axis
   overflow: hidden;
   height: 570px;
   padding-top: 100px;
-  background: #3267ae url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/facebook-bg-logo.png") 15% 100% no-repeat;
+  background: #3267ae url() 15% 100% no-repeat;
+  /*Removed
+  http://igappsfiles.blob.core.windows.net/public/iGenapps_files/facebook-bg-logo.png
+  */
 }
 @media all and (max-width: 768px) {
   /* line 1445, ../sass/_moduls.scss */

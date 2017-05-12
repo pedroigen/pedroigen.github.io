@@ -10001,7 +10001,6 @@ yx-axis
   color: #c5c6c6;
   font-weight: 300;
   font-size: 30px;
-  margin-top: 48px;
 }
 @media all and (max-width: 481px) {
   /* line 616, ../sass/_moduls.scss */
@@ -10015,8 +10014,9 @@ yx-axis
 .video-section .head-cont a.scroll-down {
   text-align: center;
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   left: 50%;
+  margin: 0 auto;
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);

@@ -211,16 +211,22 @@
 						</div>
 					</div>
 				</div>
-
-				<a href="#" id="scroll-arrow" class="scroll-down row">
+				<div class="icon-scroll scrollChild"></div>
+				<!-- <a href="#" id="scroll-arrow" class="scroll-down row hidden-md hidden-lg hidden-xl">
 					<i class="icon-arrow-up"></i>
-				</a>
+				</a> -->
 
 			</div>
 
 			<!-- video background -->
 			<!-- <div class="black-overlay"></div> -->
-			<div class="video-wrap" style="min-height: 640px;"><video id="my_video1" preload="auto" autoplay="autoplay" loop="true" style="position: relative; top: 0px; left: -389px; bottom: 0px; right: 0px; z-index: -100; width: 1137.78px; height: 640px;"><source src="media/header-video.mp4" type="video/mp4"><source src="media/header-video.ogg" type="video/ogg"><source src="media/header-video.webm" type="video/webm">bgvideo</video></div>
+			<div class="video-wrap" style="min-height: 640px;">
+				<video id="home-video" preload="auto" autoplay="autoplay" loop="true" style="position: relative; top: 0px; left: -389px; bottom: 0px; right: 0px; z-index: -100; width: 1137.78px; height: 640px;">
+					<source src="media/header-video.mp4" type="video/mp4">
+					<source src="media/header-video.ogg" type="video/ogg">
+					<source src="media/header-video.webm" type="video/webm">
+				</video>
+			</div>
 		</section>
 		<!-- .video-section -->
 
@@ -314,25 +320,36 @@
 					</div>
 					<!-- .container -->
 
-					<!-- video background -->
-					<!-- <div class="video-wrap" style="min-height: 640px;top:-799px;z-index:-100">
-						<div class="magenta-red-gradient"></div><video id="my_video1" preload="auto" autoplay="autoplay" loop="true" style="position: relative; top: 0px; left: 0; bottom: 0px; right: 0px; z-index: -100; height: 100%;"><source src="http://businessapps.co.uk/media/header-video.mp4" type="video/mp4"><source src="http://businessapps.co.uk/media/header-video.webm" type="video/webm">bgvideo</video>
-					</div> -->
-
 				</section>
 				<!-- .video-section -->
 
-
-
 		<section class="example-section hidden-xs">
-			<div class="row" style="background: url(&quot;img/bg1-new.jpg&quot;) center center / cover no-repeat;position:relative;height:100vh;background-attachment:fixed">
+			<div class="row" style="background: url(&quot;img/bg1-new.jpg&quot;) center center / cover no-repeat;position:relative;height:100vh;background-attachment:fixed;z-index:-19">
+					<img src="/img/left_hand.png" alt="" style="width:30%;bottom:0;position:fixed;margin-left:20%;z-index:-200">
+				<div class="text-center" style="position:fixed;margin-top:15%;margin-left:15%;">
+					<h2 class="white-text block-title">Sample Title
+						<small class="white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</small>
+					</h2>
+				</div>
 
 			</div>
-			<div class="row" style="background: url(&quot;img/bg2-new.jpg&quot;) center center / cover no-repeat;position:relative;height:100vh;background-attachment:fixed">
+			<div class="row" style="background: url(&quot;img/bg2-new.jpg&quot;) center center / cover no-repeat;position:relative;height:100vh;background-attachment:fixed;z-index:-19">
+				<img src="/img/left_hand.png" alt="" style="width:30%;bottom:0;position:fixed;margin-left:20%;z-index:-200">
 
+				<div class="text-center" style="position:fixed;margin-top:15%;margin-left:15%">
+					<h2 class="white-text block-title">Another Title
+						<small class="white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</small>
+					</h2>
+				</div>
 			</div>
-			<div class="row" style="background: url(&quot;img/bg3-new.jpg&quot;) center center / cover no-repeat;position:relative;height:100vh;background-attachment:fixed">
+			<div class="row" style="background: url(&quot;img/bg3-new.jpg&quot;) center center / cover no-repeat;position:relative;height:100vh;background-attachment:fixed;z-index:-19">
+				<img src="/img/left_hand.png" alt="" style="width:30%;bottom:0;position:fixed;margin-left:20%;z-index:-200">
 
+				<div class="text-center" style="position:fixed;margin-top:15%;margin-left:15%">
+					<h2 class="white-text block-title">Last Title
+						<small class="white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</small>
+					</h2>
+				</div>
 			</div>
 		</section>
 
@@ -1383,7 +1400,7 @@
 				</div>
 			</div>
 
-			<ul class="avatars">
+			<ul class="avatars" style="margin-bottom:0 !important;background:white">
 				<li class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInDown;">
 					<a class="quote-link-1 quote-link active" data-rel="quote-1"><span><img src="iGenapps_files/foto2.png"></span></a>
 				</li>
@@ -1411,7 +1428,7 @@
 			}
 		</style>
 		<!-- Contacts test -->
-		<section class="padding-bottom-3x">
+		<section class="padding-bottom-2x padding-top-2x" style="background:white">
 			<div class="container-fluid">
 				<div class="logo-slider owl-theme">
 					<div class="item logo-height-75">
@@ -1661,7 +1678,7 @@
 				"preload": true,
 				"autoplay": true,
 				"loop": true,
-				"videoid": "my_video1"
+				"videoid": "home-video"
 			});
 		});
 	</script>

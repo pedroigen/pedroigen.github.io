@@ -108,7 +108,7 @@ h3 {
 }
 
 .award-logo {
-  width: 150px;
+  width: 125px;
   height: auto;
   margin: 0 auto;
 }
@@ -227,7 +227,7 @@ video#bgvid {
 }
 
 .scrollWrapper{position: relative;}
-.scrollChild{position: absolute;bottom: 10%;}
+.scrollChild{position: absolute;bottom: 20px;}
 
 #locations {
   background:#302e30;

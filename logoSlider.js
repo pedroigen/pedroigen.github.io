@@ -1,15 +1,20 @@
 $('.logo-slider').owlCarousel({
+    autoplay:true,
+    autoplayTimeout:1750,
     loop:true,
     margin:10,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
         },
         1000:{
-            items:5
+            items:6
+        },
+        1500:{
+            items:8
         }
     }
 })

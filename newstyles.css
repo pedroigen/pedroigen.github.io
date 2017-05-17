@@ -228,3 +228,15 @@ video#bgvid {
 
 .scrollWrapper{position: relative;}
 .scrollChild{position: absolute;bottom: 10%;}
+
+#locations {
+  background:#302e30;
+}
+
+.locations-icon {
+  margin: 0 auto;
+  width: 80px;
+  background-color: #ff2a45;
+  border-radius: 100px;
+  padding: 20px;
+  }

@@ -56,28 +56,35 @@ $(document).ready(function() {
 		return false;
 	});
 
-	// HOME Video Popup
-	var $videoBtn = $( '.video-popup-btn' );
+	// Inline Video
+	var $videoBtn = $( '.inline-video' );
+	var $demoYoutube = $('.demo-youtube');
+	$demoYoutube.hide();
+
 	if( $videoBtn.length > 0 ) {
-		$videoBtn.magnificPopup( {
-			type: 'iframe',
-			mainClass: 'mfp-fade',
-			removalDelay: 500,
-			gallery: {
-				enabled: false
-			}
-		} );
+		$($videoBtn).on('click', function(ev) {
+			$videoBtn.hide();
+			$demoYoutube.show();
+
+	    $("#yt-video")[0].src += "&autoplay=1";
+	    ev.preventDefault();
+
+	  });
+
 	}
-	
-	// HOME Mobile-carousel in phone-slider-section
-	if ($('.mobile-carousel').length) {
-		$('.mobile-carousel').lemmonSlider({
-			infinite: true
-		});
-		setInterval(function sliderAutoplay() {
-			$('.mobile-carousel').trigger('nextSlide');
-		}, 3000);
-	}
+
+	// HOME Video Popup
+var $videoPopup = $( '.testimonial-popup' );
+if( $videoPopup.length > 0 ) {
+	$videoPopup.magnificPopup( {
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 500,
+		gallery: {
+			enabled: false
+		}
+	} );
+}
 
 	// HOME Phone Carousel in phone-slider-section
 	var $phoneCarousel = $( '.phone-carousel .inner' );
@@ -100,7 +107,7 @@ $(document).ready(function() {
 			} );
 		} );
 	}
-	
+
 	// HOME Price tabs
 	var isAnimBusy = false;
 	$('.switcher p').click(function() {
@@ -108,22 +115,22 @@ $(document).ready(function() {
 			return false;
 		}
 		isAnimBusy = true;
-		
+
 		var i = $('.switcher p').index($(this));
 		$('.switcher p').removeClass('active');
 		$(this).addClass('active');
-		
+
 		$('.switch-slider').css('left', $(this).position().left);
 		$('.switch-slider').css('width', $(this).outerWidth());
-		
+
 		var curEl = $('.table_tab_body.active');
 		curEl.addClass('animated').addClass(curEl.data('out'));
 		curEl.removeClass('active');
-		
+
 		curEl.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 			curEl.removeClass(curEl.data('out')).removeClass('animated');
 			curEl.hide();
-			
+
 			var newEl = $('.table_tab_body').eq(i);
 			newEl.show();
 			newEl.addClass('active animated').addClass(curEl.data('in'));
@@ -133,22 +140,22 @@ $(document).ready(function() {
 			});
 		});
 	});
-	
+
 	// HOME Testimonals
 	$('.avatars a').click(function() {
 		if (isAnimBusy || $(this).hasClass('active')) {
 			return false;
 		}
 		isAnimBusy = true;
-		
+
 		var i = $('.avatars a').index($(this));
 		$('.avatars a').removeClass('active');
 		$(this).addClass('active');
-		
+
 		var curEl = $('.quotes .slide.active');
 		curEl.addClass('animated').addClass(curEl.data('out'));
 		curEl.removeClass('active');
-		
+
 		curEl.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 			curEl.removeClass(curEl.data('out')).removeClass('animated');
 			curEl.hide();
@@ -162,7 +169,7 @@ $(document).ready(function() {
 			newEl.removeClass(curEl.data('in')).removeClass('animated');
 			isAnimBusy = false;
 		});
-		
+
 		return false;
 	});
 
@@ -210,16 +217,16 @@ $(document).ready(function() {
 			} );
 		} );
 	}
-	
-	// HOME Form validation 
+
+	// HOME Form validation
 	$('.js-validate-home').feelform({
 		notificationType: 'class',
 		preventDefaultSubmit: true,
 		onSubmit: function(el) {
 			sendAjax(el.data('formid'), el, '');
 			$('.download-button').click();
-		},			
-		clearAfterSubmit: false		
+		},
+		clearAfterSubmit: false
 	});
 
 	// Validation for all forms
@@ -228,8 +235,8 @@ $(document).ready(function() {
 		preventDefaultSubmit: true,
 		onSubmit: function(el) {
 			sendAjax(el.data('formid'), el, '');
-		},			
-		clearAfterSubmit: false		
+		},
+		clearAfterSubmit: false
 	});
 
 	// Animate CSS
@@ -299,7 +306,7 @@ $(document).ready(function() {
 // WINDOW-LOAD functions
 $(window).on('load', function() {
 	$('html, body').animate({scrollTop: 0}, 1);
-	
+
 	// HOME typed words in phone-slider-section
 	if ($('.rw-words').length) {
 		$('.rw-words span').typed({
@@ -309,6 +316,19 @@ $(window).on('load', function() {
 			loop: true
 		});
 	}
+
+
+		// HOME Mobile-carousel in phone-slider-section
+		if ($('.mobile-carousel').isOnScreen()) {
+			$('.mobile-carousel').lemmonSlider({
+				infinite: true
+			});
+			setInterval(function sliderAutoplay() {
+				$('.mobile-carousel').trigger('nextSlide');
+			}, 3000);
+
+		}
+
 
 	// HOME Phone Screens Parallax
 	var $layerParallax = $('.layer-parallax');
@@ -353,7 +373,7 @@ $.fn.reverse = [].reverse;
 var lastScrollTop = 0;
 var isBulletsVisible = false;
 $(window).on('scroll', function(){
-	
+
 	// Navbar shows when scrolling
 	var st = $(window).scrollTop();
 	if (st > lastScrollTop){
@@ -378,15 +398,15 @@ $(window).on('scroll', function(){
 			return false;
 		}
 	});
-	
+
 	// HOME example-section
 	var totalSlides = $('.slide-wrapper').length;
 	if (totalSlides > 0) {
 		var lastOffset = $('.slide-wrapper:last').offset().top;
-		
+
 		$('.slide-wrapper').each(function(i) {
 			var isLast = (i == (totalSlides - 1));
-			
+
 			if (st > $(this).offset().top && st < lastOffset) {
 				if (!isLast) {
 					$(this).find('.slide1').css({'position': 'fixed', 'top': 0, 'left': 0});
@@ -394,12 +414,12 @@ $(window).on('scroll', function(){
 			} else {
 				$(this).find('.slide1').css('position', 'relative');
 			}
-			
+
 			if (st > $(this).offset().top && st < lastOffset + 200) {
 				setActiveBullet(i);
 			}
 		});
-		
+
 		if (st > $('.slide-wrapper:first').offset().top && st < lastOffset + 200) {
 			if (!isBulletsVisible) {
 				showBullets();
@@ -451,11 +471,11 @@ function sendAjax(id, form, customData) {
 
 		idHolder = id;
 		formHolder = form;
-		
+
 		var dataStr = 'id=' + id + customData;
 		if (form.length != '') {
 			dataStr += ('&' + form.serialize());
-		}		
+		}
 		$.ajax({
 			type: 'post',
 			url: 'mailer/ajaxHandler.php',
@@ -474,5 +494,24 @@ function sendAjax(id, form, customData) {
 				}
 			}
 		});
-	}	
+	}
 }
+
+$.fn.isOnScreen = function(){
+
+    var win = $(window);
+
+    var viewport = {
+        top : win.scrollTop(),
+        left : win.scrollLeft()
+    };
+    viewport.right = viewport.left + win.width();
+    viewport.bottom = viewport.top + win.height();
+
+    var bounds = this.offset();
+    bounds.right = bounds.left + this.outerWidth();
+    bounds.bottom = bounds.top + this.outerHeight();
+
+    return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
+
+};

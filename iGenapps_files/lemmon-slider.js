@@ -338,7 +338,7 @@
 		'slideToLast' : false,
 		'slider'      : '> *:first',
 		// since 0.2
-		'infinite'    : false
+		'infinite'    : true
 
 	}
 

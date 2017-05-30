@@ -440,7 +440,7 @@ h2 {
 /* line 34, ../sass/_typography.scss */
 h3 {
   font-size: 24px;
-  font-weight: 500; /*300*/
+  font-weight: 700; /*500*/
   font-style: normal;
   text-transform: none;
 }
@@ -9265,7 +9265,8 @@ yx-axis
 }
 /* line 113, ../sass/_moduls.scss */
 .quotes .quote-1 {
-  background: url("http://igappsfiles.blob.core.windows.net/public/iGenapps_files/home-background-quote-mailchimp.jpg") center center no-repeat;
+  background: url('/iGenapps_files/testimonial-bg-1.jpg') center center no-repeat;
+  background-size: cover;
 }
 /* line 116, ../sass/_moduls.scss */
 .quotes .quote-2 {
@@ -9337,7 +9338,7 @@ yx-axis
 }
 /* line 157, ../sass/_moduls.scss */
 .quotes .slide .quote p.name {
-  color: #939da5;
+  color: #fff;
   font: normal 500 0.75em "BrandonGrotesque", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -9353,7 +9354,7 @@ yx-axis
 }
 /* line 168, ../sass/_moduls.scss */
 .quotes .slide .quote a.play {
-  display: inline-block;
+  display: block; /*  display: inline-block;*/
   width: 50px;
   height: 50px;
   margin-top: 2.625em;

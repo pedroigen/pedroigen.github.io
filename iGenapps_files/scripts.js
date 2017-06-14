@@ -57,21 +57,21 @@ $(document).ready(function() {
 	});
 
 	// Inline Video
-	var $videoBtn = $( '.inline-video' );
-	var $demoYoutube = $('.demo-youtube');
-	$demoYoutube.hide();
-
-	if( $videoBtn.length > 0 ) {
-		$($videoBtn).on('click', function(ev) {
-			$videoBtn.hide();
-			$demoYoutube.show();
-
-	    $("#yt-video")[0].src += "&autoplay=1";
-	    ev.preventDefault();
-
-	  });
-
-	}
+	// var $videoBtn = $( '.inline-video' );
+	// var $demoYoutube = $('.demo-youtube');
+	// $demoYoutube.hide();
+	//
+	// if( $videoBtn.length > 0 ) {
+	// 	$($videoBtn).on('click', function(ev) {
+	// 		$videoBtn.hide();
+	// 		$demoYoutube.show();
+	//
+	//     $("#yt-video")[0].src += "&autoplay=1";
+	//     ev.preventDefault();
+	//
+	//   });
+	//
+	// }
 
 	// HOME Video Popup
 var $videoPopup = $( '.testimonial-popup' );

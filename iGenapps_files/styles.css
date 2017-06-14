@@ -8625,7 +8625,7 @@ yx-axis
 /* line 19, ../sass/_footer.scss */
 .footer .copyright {
   padding: 13px 0;
-  border-top: 1px solid #e2e2e2;
+  border-top: none; /*1px solid transparent*/
 }
 /* line 23, ../sass/_footer.scss */
 .footer .copyright .inner {

@@ -1,38 +1,38 @@
 .norman-img {
-  background: url('/iGenapps_files/02-1.jpg') center no-repeat;
+  background: url('/img/norman-bg.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }
 
 
 .norman-img:hover {
-  background: url('/iGenapps_files/02-2.jpg') center no-repeat;
+  background: url('/img/norman.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }
 
 .martijn-img {
-  background: url('/iGenapps_files/04-1.jpg') center no-repeat;
+  background: url('/img/martijn-bg.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }
 
 
 .martijn-img:hover {
-  background: url('/iGenapps_files/04-2.jpg') center no-repeat;
+  background: url('/img/martijn.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }
 
 .michelle-img {
-  background: url('/iGenapps_files/03-1.jpg') center no-repeat;
+  background: url('/img/michelle-bg.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }
 
 
 .michelle-img:hover {
-  background: url('/iGenapps_files/03-2.jpg') center no-repeat;
+  background: url('/img/michelle.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }
@@ -46,6 +46,19 @@
 
 .usman-img:hover {
   background: url('/iGenapps_files/01-2.jpg') center no-repeat;
+  background-size:contain;
+  height: 250px;
+}
+
+.danilo-img {
+  background: url('/img/danilo-bg.png') center no-repeat;
+  background-size:contain;
+  height: 250px;
+}
+
+
+.danilo-img:hover {
+  background: url('/img/danilo.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }

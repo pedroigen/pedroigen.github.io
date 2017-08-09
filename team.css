@@ -38,14 +38,14 @@
 }
 
 .usman-img {
-  background: url('/iGenapps_files/01-1.jpg') center no-repeat;
+  background: url('/img/usman-bg.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }
 
 
 .usman-img:hover {
-  background: url('/iGenapps_files/01-2.jpg') center no-repeat;
+  background: url('/img/usman.png') center no-repeat;
   background-size:contain;
   height: 250px;
 }
@@ -63,6 +63,27 @@
   height: 250px;
 }
 
+.pedro-img {
+  background: url('/img/pedro-bg.png') center no-repeat;
+  background-size:contain;
+  height: 250px;
+}
+
+
+.pedro-img:hover {
+  background: url('/img/pedro.png') center no-repeat;
+  background-size:contain;
+  height: 250px;
+}
+
 .p-no-margin p {
   margin: 0px
+}
+
+.mt-50 {
+  margin-top:50px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
 }

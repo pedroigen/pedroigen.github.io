@@ -425,8 +425,8 @@ opacity: .7;
 }
 
 .footer-social-icons {
-  border-radius: 100%;
-  width:30px;
+  border-radius: 50%;
+  width:35px;
   background: #b3b3b3;
   color: #fff;
 }
@@ -434,3 +434,10 @@ opacity: .7;
 .mt--10 {
   margin-top: -10px;
 }
+
+.circle-bg
+  {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
